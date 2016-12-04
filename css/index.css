@@ -1,0 +1,104 @@
+/*-----导航菜单-------*/
+
+.navigation {
+    background-color: #fff;
+    height: 56px;
+}
+
+.navigation > ul {
+    margin-top: 10px;
+    padding: 0 10px;
+    border: 1px solid #C4CDD6;
+    background-color: #F7F7F7;
+}
+
+.navigation li {
+    float: left;
+    border-right: 1px solid #C4CDD6;
+    height: 44px;
+    font-size: 16px;
+    line-height: 44px;
+    display: inline;
+    font-weight: 800;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.navigation a {
+    color: #555;
+    font-weight: inherit;
+    padding: 0 22px;
+}
+
+/*-----公司简介------*/
+.desc-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.company-desc {
+    border: 1px solid #C4CDD6;
+}
+
+.desc-box dt {
+    background-color: #EDF3FA;
+    padding: 0 10px;
+    font: normal 18px/30px "Microsoft YaHei UI";
+    font-weight: bold;
+}
+
+.desc-box dd {
+    line-height: 30px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/*-------特色产品*/
+
+.picture-box {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item {
+    background-color: #fff;
+    border: 1px solid #C4CDD6;
+    margin-top: 10px;
+}
+
+.item > div:nth-child(1) {
+    background-color: #EDF3FA;
+    padding: 0 10px;
+    font: normal 18px/30px "Microsoft YaHei UI";
+    font-weight: bold;
+    vertical-align: baseline;
+}
+
+.item > div:nth-child(2) {
+    padding: 10px;
+}
+
+.type > p {
+    float: left;
+}
+
+.type > a {
+    display: inline-block;
+    float: right;
+    height: 100%;
+}
+
+.row > div {
+    text-align: center;
+}
+
+.row img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #C4CDD6;
+    margin: 5px auto;
+}
+

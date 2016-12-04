@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*---基础配置----*/
+html, body, ul, li, ol, dl, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/*-------公共样式-------*/
+body {
+    background-color: #fff;
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+}
+
+/*头部横条*/
+.top-bar{
+    height: 32px;
+    border-bottom: 1px solid #dedfe0;
+    background: #f7f9fa;
+}
+
+/*内容盒子*/
+.content-wrap{
+    background-color: #D5E7FF;
+}

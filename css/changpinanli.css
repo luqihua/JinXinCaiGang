@@ -1,0 +1,21 @@
+/*----内容-------*/
+
+.content-box {
+    margin: 0 auto;
+    padding: 0;
+    border-top: 1px solid #C4CDD6;
+    /*background-color: #fff;*/
+    padding-top: 10px;
+}
+
+.img-list > li {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.img-list img {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
